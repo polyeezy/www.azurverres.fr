@@ -1,0 +1,165 @@
+body {
+  background-color: red;
+}
+h1,
+h3 {
+  margin: 0;
+}
+#slider {
+  height: 530px;
+  width: 980px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.slide {
+  height: 530px;
+  width: 980px;
+  list-style-type: none;
+  background-size: cover;
+}
+#slider .slides {
+  display: block;
+  width: 6000px;
+  height: 530px;
+  margin: 0;
+  padding: 0;
+}
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 980px;
+  height: 530px;
+}
+.slide1 {
+  background: url('../img/slide1.jpeg') center;
+  background-size: cover;
+}
+.slide2 {
+  background: url('../img/slide2.jpeg') center;
+}
+.slide3 {
+  background: url('../img/slide3.jpeg') center;
+}
+.slide4 {
+  background: url('../img/slide4.jpeg') center;
+}
+.slide5 {
+  background: url('../img/slide5.jpeg') center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-bar {
+  height: 10vh;
+  padding-top: 20px;
+  background-color: #F6F6F6;
+}
+.logo {
+  height: 12vh;
+  background-color: #F6F6F6;
+}
+.page {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+.logo-font {
+  font-family: Eurosteal;
+  font-size: 52px;
+}
+.logo-sub-font {
+  font-family: "Avenir Next" !important;
+  color: #A5A5A5;
+  font-size: 16;
+  letter-spacing: 17px;
+}
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  height: 1px;
+  width: 700px;
+  border: 0;
+  background-color: #A5A5A5;
+}
+ul.egmenu {
+  height: 30px;
+  width: 980px;
+}
+ul.egmenu > li {
+  float: left;
+  position: relative;
+}
+ul.egmenu ul {
+  background: #444;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+a {
+  font-size: 18px;
+}
+ul.egmenu a {
+  cursor: pointer;
+  display: block;
+  color: grey;
+  line-height: 30px;
+  padding: 0 10px;
+}
+ul.egmenu li {
+  list-style: none;
+}
+@font-face {
+  font-family: AvenirNext;
+  src: url('../fonts/avenirnext.ttf');
+}
+@font-face {
+  font-family: Eurosteal;
+  src: url('../fonts/Eurosteal.ttf');
+}
+@font-face {
+  font-family: Serial-cust;
+  src: url('../Fonts/ufonts.com_ultimate-serial-light-regular.ttf');
+}
+.preloader {
+  margin-top: 40vh;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: solid 3px;
+  border-color: #555555 transparent;
+  border-radius: 50%;
+  -webkit-animation: rota 1s ease-in-out infinite;
+  -moz-animation: rota 1s ease-in-out infinite;
+  -ms-animation: rota 1s ease-in-out infinite;
+  -o-animation: rota 1s ease-in-out infinite;
+  animation: rota 1s ease-in-out infinite;
+}
+@-webkit-keyframes rota {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rota {
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes rota {
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-o-keyframes rota {
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes rota {
+  to {
+    transform: rotate(360deg);
+  }
+}

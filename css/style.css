@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "AvenirNext";
+  src: url('../fonts/avenirnext.ttf');
+}
+@font-face {
+  font-family: Eurosteal;
+  src: url('../fonts/Eurosteal.ttf');
+}
+
+.lkn-text
+{
+  color: #4875B4;
+}
+
+.yt-text
+{
+  color: #e52d27;
+}
+
+.faceblue-text
+{
+  color: #3b5998;
+
+}
+
+.faceblue
+{
+  background-color: #3b5998;
+}
+.container
+{
+  padding-top: 50px;
+}
+
+.brand-logo
+{
+  font-family: Eurosteal;
+  margin-left: 20px;
+}
+
+.sub-brand
+{
+  color: #A5A5A5;
+  font-size: 1em !important;
+  letter-spacing: 17px;
+  display: block;
+
+
+}
